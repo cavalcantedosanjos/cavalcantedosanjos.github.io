@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – Taska</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    header {
+      background: #f7f7f7;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 24px 0;
+    }
+    header .inner {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+      background: #007AFF;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 20px; font-weight: 600; }
+    header p { font-size: 13px; color: #666; }
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 0 48px;
+    }
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #111;
+    }
+    .hero p {
+      font-size: 17px;
+      color: #555;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .contact-btn {
+      display: inline-block;
+      background: #007AFF;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .contact-btn:hover { background: #0062cc; text-decoration: none; }
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #007AFF;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 6px;
+      margin-top: 28px;
+    }
+    h3:first-of-type { margin-top: 0; }
+    p { margin-bottom: 12px; color: #333; }
+    .faq-block {
+      border-top: 1px solid #ebebeb;
+      padding-top: 32px;
+      margin-top: 48px;
+    }
+    .shortcuts-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+    .shortcuts-table th {
+      text-align: left;
+      font-size: 13px;
+      font-weight: 600;
+      color: #888;
+      padding: 6px 10px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .shortcuts-table td {
+      padding: 9px 10px;
+      font-size: 15px;
+      border-bottom: 1px solid #f0f0f0;
+      color: #333;
+    }
+    .shortcuts-table td:first-child {
+      font-family: "SF Mono", "Menlo", monospace;
+      color: #555;
+      white-space: nowrap;
+    }
+    .tip {
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+    footer {
+      border-top: 1px solid #e5e5e5;
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: #999;
+    }
+    a { color: #007AFF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="logo">T</div>
+    <div>
+      <h1>Taska – Kanban Board</h1>
+      <p>Support</p>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero">
+    <h2>How can we help?</h2>
+    <p>Browse the frequently asked questions below, or send us an email and we'll get back to you.</p>
+    <a class="contact-btn" href="mailto:developer@hermitden.com">Contact Support</a>
+  </div>
+
+  <!-- Getting Started -->
+  <div class="section-label">Getting Started</div>
+
+  <h3>How do I open Taska?</h3>
+  <p>After installing Taska, click its icon in your Mac menu bar (top-right area of the screen). The Kanban board will open instantly as a popover.</p>
+
+  <h3>How do I add a task?</h3>
+  <p>Click the <strong>+ Add Task</strong> button at the top of the board, or press <strong>⌘N</strong> to open a new task quickly. Fill in the title, and optionally set a due date and priority. Press <strong>⌘Return</strong> to save.</p>
+
+  <h3>How do I move a task between columns?</h3>
+  <p>Drag and drop any task card from one column (To Do, In Progress, Done) to another. The change is saved automatically.</p>
+
+  <!-- Keyboard Shortcuts -->
+  <div class="faq-block">
+    <div class="section-label">Keyboard Shortcuts</div>
+    <table class="shortcuts-table">
+      <thead>
+        <tr>
+          <th>Shortcut</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>⌘N</td><td>Create a new task</td></tr>
+        <tr><td>⌘Return</td><td>Save the current task</td></tr>
+        <tr><td>⌘Delete</td><td>Delete the selected task</td></tr>
+        <tr><td>Esc</td><td>Close the board popover</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Notifications & Reminders -->
+  <div class="faq-block">
+    <div class="section-label">Notifications &amp; Reminders</div>
+
+    <h3>How do I get reminded about due dates?</h3>
+    <p>Taska uses macOS Notifications to alert you when a task is due. You can set reminders to fire at the exact due time or a few minutes before. Open Taska's Settings to configure reminder timing.</p>
+
+    <h3>I'm not seeing notifications. What should I check?</h3>
+    <p>Make sure Taska has permission to send notifications. Go to <strong>System Settings → Notifications → Taska</strong> and ensure notifications are enabled.</p>
+  </div>
+
+  <!-- Data & Privacy -->
+  <div class="faq-block">
+    <div class="section-label">Data &amp; Privacy</div>
+
+    <h3>Where is my data stored?</h3>
+    <p>All your tasks are stored locally on your Mac using Apple's built-in storage system. Your data never leaves your device.</p>
+
+    <h3>Does Taska sync with iCloud or other services?</h3>
+    <p>No. Taska V1 is fully offline and does not sync anywhere. Your tasks are only available on the Mac where you installed the app.</p>
+
+    <h3>How do I delete all my data?</h3>
+    <p>Uninstalling Taska from your Mac removes all stored data. You can also clear individual tasks by moving them to the Done column and letting auto-clear remove them.</p>
+
+    <h3>What data does Taska collect?</h3>
+    <p>None. Taska collects no personal data, sends nothing to any server, and requires no account. See our <a href="privacy-policy.html">Privacy Policy</a> for full details.</p>
+  </div>
+
+  <!-- Settings -->
+  <div class="faq-block">
+    <div class="section-label">Settings</div>
+
+    <h3>How do I make Taska launch automatically on login?</h3>
+    <p>Open Taska's Settings (click the gear icon in the popover) and enable <strong>Launch at Login</strong>.</p>
+
+    <h3>Can I turn off the auto-clear of the Done column?</h3>
+    <p>Yes. In Settings, toggle off <strong>Auto-clear Done column</strong>. When disabled, completed tasks will stay in the Done column until you delete them manually.</p>
+
+    <h3>How do I change the reminder timing?</h3>
+    <p>In Settings, find <strong>Reminder Timing</strong> and choose your preferred option — at the exact due time, or 5, 15, or 30 minutes before.</p>
+  </div>
+
+  <!-- Troubleshooting -->
+  <div class="faq-block">
+    <div class="section-label">Troubleshooting</div>
+
+    <h3>Taska's icon doesn't appear in the menu bar.</h3>
+    <p>Try quitting and relaunching the app. If your menu bar is crowded, macOS may be hiding some icons — look for the overflow indicator (<strong>»</strong>) at the right end of the menu bar.</p>
+
+    <h3>The app isn't responding or feels slow.</h3>
+    <p>Quit Taska from the popover menu and relaunch it. If the problem persists, contact support with a description of what happened.</p>
+
+    <div class="tip">
+      Still stuck? Email us at <a href="mailto:developer@hermitden.com">developer@hermitden.com</a> and we'll help you out as quickly as we can.
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Taska – Kanban Board &nbsp;·&nbsp; © 2026 Joao Anjos &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
