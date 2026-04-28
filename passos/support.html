@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – Passos</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    header {
+      background: #f7f7f7;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 24px 0;
+    }
+    header .inner {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+      background: #007AFF;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 20px; font-weight: 600; }
+    header p { font-size: 13px; color: #666; }
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 0 48px;
+    }
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #111;
+    }
+    .hero p {
+      font-size: 17px;
+      color: #555;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .contact-btn {
+      display: inline-block;
+      background: #007AFF;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .contact-btn:hover { background: #0062cc; text-decoration: none; }
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #007AFF;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 6px;
+      margin-top: 28px;
+    }
+    h3:first-of-type { margin-top: 0; }
+    p { margin-bottom: 12px; color: #333; }
+    .faq-block {
+      border-top: 1px solid #ebebeb;
+      padding-top: 32px;
+      margin-top: 48px;
+    }
+    .tip {
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+    footer {
+      border-top: 1px solid #e5e5e5;
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: #999;
+    }
+    a { color: #007AFF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="logo">P</div>
+    <div>
+      <h1>Passos – Step Tracker</h1>
+      <p>Support</p>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero">
+    <h2>How can we help?</h2>
+    <p>Browse the frequently asked questions below, or send us an email and we'll get back to you.</p>
+    <a class="contact-btn" href="mailto:developer@hermitden.com">Contact Support</a>
+  </div>
+
+  <!-- Getting Started -->
+  <div class="section-label">Getting Started</div>
+
+  <h3>How do I set up Passos?</h3>
+  <p>After installing the app, open it and tap <strong>Connect to Apple Health</strong> when prompted. Grant the permissions Passos requests — at minimum, step count is required. Once connected, the app immediately begins displaying your steps for the day. You only need to do this once.</p>
+
+  <h3>Why does Passos need access to Apple Health?</h3>
+  <p>Passos reads your step data directly from Apple Health, which consolidates steps from your iPhone's built-in motion sensor and any connected devices such as Apple Watch. Passos never writes anything back to Health and never modifies your existing data.</p>
+
+  <h3>How do I set my daily step goal?</h3>
+  <p>Open the <strong>Settings</strong> tab inside Passos and tap <strong>Daily Goal</strong>. Enter any number of steps you like — the default is 10,000. Your progress ring on the main screen will update immediately to reflect the new target.</p>
+
+  <h3>When does the step count reset?</h3>
+  <p>Your step count resets automatically at midnight each day, matching the same daily boundary Apple Health uses. You don't need to do anything — Passos always shows today's progress from 12:00 AM onwards.</p>
+
+  <!-- Widgets -->
+  <div class="faq-block">
+    <div class="section-label">Widgets</div>
+
+    <h3>What widgets does Passos offer?</h3>
+    <p>Passos includes three Home Screen widget sizes: <strong>Small</strong> (shows step count and progress ring), <strong>Medium</strong> (adds distance and calories), and <strong>Large</strong> (full view with active minutes and a weekly bar chart).</p>
+
+    <h3>How do I add a Passos widget to my Home Screen?</h3>
+    <p>Long-press any empty area on your Home Screen until the icons jiggle, then tap the <strong>+</strong> button in the top-left corner. Search for <strong>Passos</strong>, choose your preferred size, and tap <strong>Add Widget</strong>. Drag it to the position you want and tap <strong>Done</strong>.</p>
+
+    <h3>My widget is showing stale data. How do I refresh it?</h3>
+    <p>iOS controls how frequently widgets refresh in order to preserve battery life. Passos requests updates as often as Apple allows. Opening the Passos app directly will always force a fresh sync with Apple Health. If the widget seems consistently out of date, try removing it and re-adding it.</p>
+  </div>
+
+  <!-- Streaks & Badges -->
+  <div class="faq-block">
+    <div class="section-label">Streaks &amp; Badges</div>
+
+    <h3>How does my streak work?</h3>
+    <p>Your streak increases by one each day you reach or exceed your daily step goal before midnight. Missing a day resets your streak to zero. Passos checks your final step count for the previous day when you open the app each morning, so a late evening walk that pushes you over the goal will still count.</p>
+
+    <h3>I hit my goal yesterday but my streak didn't increase. Why?</h3>
+    <p>This can happen if Apple Health hadn't finished syncing your steps from Apple Watch or another source by midnight. Try opening the Health app to confirm yesterday's total was recorded, then open Passos — it will re-check and update your streak if the data is now available.</p>
+
+    <h3>How do I earn badges?</h3>
+    <p>Badges are awarded automatically for milestones such as completing your first goal, reaching a 7-day streak, hitting certain cumulative step totals, and more. A notification appears when you earn a new badge. You can review all earned and upcoming badges from the <strong>Badges</strong> tab.</p>
+  </div>
+
+  <!-- Customisation -->
+  <div class="faq-block">
+    <div class="section-label">Customisation</div>
+
+    <h3>Can I change the unit system?</h3>
+    <p>Yes. In <strong>Settings</strong>, tap <strong>Units</strong> and choose between <strong>Metric</strong> (kilometres) and <strong>Imperial</strong> (miles). Distance and pace figures throughout the app and on your widgets will update to match.</p>
+
+    <h3>How do I change the accent colour?</h3>
+    <p>Open <strong>Settings</strong> and tap <strong>Accent Colour</strong>. Pick any colour from the palette — it affects the progress ring, badges, and widget highlights. Your selection is saved on-device and applied instantly.</p>
+
+    <h3>How do I enable hourly nudge notifications?</h3>
+    <p>In <strong>Settings</strong>, toggle on <strong>Hourly Nudges</strong>. Passos will send a brief notification each hour (during a time window you can configure) if you are behind pace to reach your daily goal. You can adjust the active hours or turn nudges off at any time.</p>
+
+    <h3>Can I change the time window for nudge notifications?</h3>
+    <p>Yes. Under <strong>Settings → Hourly Nudges → Active Hours</strong>, set a start and end time. Passos will only send nudges within that window, so you won't receive reminders while you're asleep or outside your preferred hours.</p>
+  </div>
+
+  <!-- Privacy & Data -->
+  <div class="faq-block">
+    <div class="section-label">Privacy &amp; Data</div>
+
+    <h3>Does Passos send my data anywhere?</h3>
+    <p>No. Passos is entirely offline. Your step data, goal, streak history, and settings never leave your device. There are no accounts, no servers, and no analytics. See our <a href="privacy-policy.html">Privacy Policy</a> for the full details.</p>
+
+    <h3>Does Passos cost anything?</h3>
+    <p>Passos is completely free. There is no subscription, no in-app purchase, and no premium tier — every feature is available to every user from the moment they install the app.</p>
+
+    <h3>How do I delete all my data?</h3>
+    <p>Deleting Passos from your iPhone removes all locally stored data — your goal, streak history, badges, and preferences. Your step data itself lives in Apple Health and is unaffected by removing Passos. You can manage or delete that data from the <strong>Health</strong> app.</p>
+  </div>
+
+  <!-- Troubleshooting -->
+  <div class="faq-block">
+    <div class="section-label">Troubleshooting</div>
+
+    <h3>Passos is showing zero steps even though I've been walking.</h3>
+    <p>This is almost always a Health permissions issue. Go to <strong>Settings → Privacy &amp; Security → Health → Passos</strong> and make sure <strong>Steps</strong> is toggled on under "Read" permissions. After granting access, reopen Passos to trigger a fresh sync.</p>
+
+    <h3>The progress ring doesn't seem to match the Health app.</h3>
+    <p>Apple Health can take a short time to aggregate steps from multiple sources (iPhone, Apple Watch, third-party apps). Open the Health app, navigate to <strong>Browse → Activity → Steps</strong>, and check the "Data Sources &amp; Access" section to see when each source last synced. Closing and reopening Passos will re-read the latest available data.</p>
+
+    <h3>My streak was lost after reinstalling the app.</h3>
+    <p>Passos stores streak data locally on your device. Deleting and reinstalling the app clears that local data. Your step history in Apple Health is preserved, but Passos cannot retroactively reconstruct past streaks after a fresh install. We recommend keeping the app installed to maintain streak continuity.</p>
+
+    <h3>Notifications are not arriving.</h3>
+    <p>Check that Passos has notification permission: go to <strong>Settings → Notifications → Passos</strong> and ensure <strong>Allow Notifications</strong> is enabled. Also verify that <strong>Hourly Nudges</strong> is turned on inside Passos settings and that your configured active-hours window covers the current time.</p>
+
+    <div class="tip">
+      Still stuck? Email us at <a href="mailto:developer@hermitden.com">developer@hermitden.com</a> and we'll help you out as quickly as we can.
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Passos – Step Tracker &nbsp;·&nbsp; © 2026 Joao Anjos &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
