@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – Deslize</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    header {
+      background: #f7f7f7;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 24px 0;
+    }
+    header .inner {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #299EA8, #33459E);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 20px; font-weight: 600; }
+    header p { font-size: 13px; color: #666; }
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 0 48px;
+    }
+    .hero h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #111;
+    }
+    .hero p {
+      font-size: 17px;
+      color: #555;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .contact-btn {
+      display: inline-block;
+      background: #1f8590;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .contact-btn:hover { background: #176a73; text-decoration: none; }
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1f8590;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 6px;
+      margin-top: 28px;
+    }
+    h3:first-of-type { margin-top: 0; }
+    p { margin-bottom: 12px; color: #333; }
+    .faq-block {
+      border-top: 1px solid #ebebeb;
+      padding-top: 32px;
+      margin-top: 48px;
+    }
+    .tip {
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #555;
+    }
+    footer {
+      border-top: 1px solid #e5e5e5;
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: #999;
+    }
+    a { color: #1f8590; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="logo">D</div>
+    <div>
+      <h1>Deslize – Slide Puzzle</h1>
+      <p>Support</p>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero">
+    <h2>How can we help?</h2>
+    <p>Browse the frequently asked questions below, or send us an email and we'll get back to you.</p>
+    <a class="contact-btn" href="mailto:developer@hermitden.com">Contact Support</a>
+  </div>
+
+  <!-- How to Play -->
+  <div class="section-label">How to Play</div>
+
+  <h3>How do I play Deslize?</h3>
+  <p>Swipe in any direction to tilt the board. Every block slides that way until it hits a wall or another block. A level is solved when each block rests on the target with the same color and shape.</p>
+
+  <h3>How do stars work?</h3>
+  <p>Each level has a <strong>par</strong>: the minimum number of moves, verified by a solver. Solve it in par or fewer moves for <strong>3 stars</strong>, up to 2 moves over par for <strong>2 stars</strong>, and any solution earns <strong>1 star</strong>. Undo and restart are free, so you can keep trying for a better score.</p>
+
+  <h3>What are the sandy sticky tiles?</h3>
+  <p>From world 5 on, some levels include sticky tiles. Any block that slides onto a sticky tile stops there, even if the path ahead is clear. Use them to park blocks where walls can't.</p>
+
+  <h3>How do I undo or restart a level?</h3>
+  <p>Tap <strong>Undo</strong> below the board to take back your last move. To start the level over, tap the <strong>restart</strong> button in the top bar and confirm. It sits away from the board so a stray tap never wipes your attempt.</p>
+
+  <!-- Progress -->
+  <div class="faq-block">
+    <div class="section-label">Worlds &amp; Progress</div>
+
+    <h3>How many levels are there?</h3>
+    <p>Deslize has 200 levels across 10 worlds of 20 levels each, from gentle to fiendish. All of them are free.</p>
+
+    <h3>How do I unlock the next world?</h3>
+    <p>Worlds open with stars. The first world is always open, and each world after it needs 30 more stars in total than the one before: 30 stars for world 2, 60 for world 3, and so on. Inside a world, each level opens once you've solved the previous one.</p>
+
+    <h3>Can a world lock again?</h3>
+    <p>No. Once you've played a level in a world, that world stays open for good.</p>
+  </div>
+
+  <!-- Game Center -->
+  <div class="faq-block">
+    <div class="section-label">Game Center</div>
+
+    <h3>Does Deslize have leaderboards and achievements?</h3>
+    <p>Yes. When you're signed in to Game Center, Deslize reports your scores to leaderboards and unlocks achievements as you progress.</p>
+
+    <h3>How do I sign in to Game Center?</h3>
+    <p>Open the iOS <strong>Settings</strong> app, tap <strong>Game Center</strong> and sign in with your Apple Account. Then reopen Deslize. Progress you made before signing in is reported once you're connected.</p>
+  </div>
+
+  <!-- Accessibility -->
+  <div class="faq-block">
+    <div class="section-label">Accessibility &amp; Settings</div>
+
+    <h3>Can I play if I'm color-blind?</h3>
+    <p>Yes. Every block and target has a shape as well as a color, so you can match them by shape alone.</p>
+
+    <h3>Does Deslize support VoiceOver and Reduce Motion?</h3>
+    <p>Yes. The board, blocks and controls are fully labeled for VoiceOver, and animations calm down when <strong>Reduce Motion</strong> is on in the iOS accessibility settings.</p>
+
+    <h3>How do I turn off vibrations?</h3>
+    <p>Open <strong>Settings</strong> from the Deslize home screen and switch off <strong>Haptics</strong>.</p>
+
+    <h3>Is there a dark mode?</h3>
+    <p>Yes. Deslize follows your device's appearance setting automatically.</p>
+  </div>
+
+  <!-- Privacy & Data -->
+  <div class="faq-block">
+    <div class="section-label">Privacy &amp; Cost</div>
+
+    <h3>Does Deslize cost anything?</h3>
+    <p>Deslize is completely free. There are no in-app purchases, no subscriptions and no ads.</p>
+
+    <h3>Does Deslize collect my data?</h3>
+    <p>No. There are no accounts, no analytics and no tracking, and the game works fully offline. See our <a href="privacy-policy.html">Privacy Policy</a> for the full details.</p>
+  </div>
+
+  <!-- Troubleshooting -->
+  <div class="faq-block">
+    <div class="section-label">Troubleshooting</div>
+
+    <h3>A world is still locked even though I've played a lot.</h3>
+    <p>Worlds unlock by total stars, not by levels solved. Replay earlier levels and match par to earn 3 stars. The world card shows how many stars you still need.</p>
+
+    <h3>My progress was lost after reinstalling the app.</h3>
+    <p>Progress is stored only on your device, so deleting the app removes it. Restoring your device from an iCloud or computer backup brings it back. Game Center scores and achievements are kept by Apple and aren't affected.</p>
+
+    <h3>My scores don't show up in Game Center.</h3>
+    <p>Check that you're signed in under <strong>Settings → Game Center</strong> and have an internet connection, then reopen Deslize. Scores are sent the next time the game connects to Game Center.</p>
+
+    <div class="tip">
+      Still stuck? Email us at <a href="mailto:developer@hermitden.com">developer@hermitden.com</a> and we'll help you out as quickly as we can.
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Deslize – Slide Puzzle &nbsp;·&nbsp; © 2026 Joao Anjos &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
