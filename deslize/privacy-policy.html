@@ -75,6 +75,7 @@
       font-size: 13px;
       color: #999;
     }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; background: #f2f2f2; padding: 1px 5px; border-radius: 4px; }
     a { color: #1f8590; text-decoration: none; }
     a:hover { text-decoration: underline; }
   </style>
@@ -92,38 +93,53 @@
 </header>
 
 <main>
-  <p class="effective-date">Effective date: October 5, 2026</p>
+  <p class="effective-date">Effective date: October 11, 2026</p>
 
   <div class="highlight">
-    <p>Deslize does not collect, store, or share any personal data. Your progress stays on your device.</p>
+    <p>Deslize has no accounts, no ads and no tracking. It sends anonymous gameplay statistics to help tune the levels, and you can turn that off at any time in Settings › Privacy.</p>
   </div>
 
   <h2>Overview</h2>
-  <p>Deslize ("the app") is an iOS slide puzzle game developed by Joao Anjos. This privacy policy explains how Deslize handles your information. The short version: it doesn't collect any. There are no accounts, no analytics, no advertising and no tracking.</p>
+  <p>Deslize ("the app") is a slide puzzle game for iPhone and iPad developed by Joao Anjos. This policy explains what the app stores, what it sends, who receives it and how you can control it. Deslize never asks for your name, email address, phone number or contacts.</p>
 
   <h2>Data Stored on Your Device</h2>
-  <p>Deslize stores only what it needs to play:</p>
-  <p><strong>Game progress</strong> — your best star rating for each level you have solved.<br>
-  <strong>Settings</strong> — whether haptic feedback is turned on.</p>
-  <p>This information is saved exclusively on your device using Apple's standard on-device storage. It is never sent to Joao Anjos or any third party (though it may be included in a standard iCloud or computer backup of your device that you control).</p>
+  <p>To play, Deslize keeps the following on your device:</p>
+  <p><strong>Game progress</strong> — your stars for each level in every mode, your best moves and times, and your daily challenge results and streak.<br>
+  <strong>Game state</strong> — your hearts and how many hints you have left.<br>
+  <strong>Settings</strong> — sound, haptics, appearance, controls, app icon and notification choices.<br>
+  <strong>Identifiers</strong> — a random install ID and your player code (see below).</p>
+  <p>The Home Screen and Lock Screen widgets and the Live Activity read your hearts and progress from storage shared between the app and its widgets on the same device. This data may also be included in an iCloud or computer backup of your device that you control.</p>
 
-  <h2>Game Center</h2>
-  <p>If you are signed in to Game Center, Deslize reports your scores to Game Center leaderboards and your progress to Game Center achievements. This data is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>; Deslize never receives your Game Center account details or contacts. You can stop sharing at any time by signing out of Game Center in the iOS Settings app. The game works fully without it.</p>
+  <h2>Gameplay Statistics (Google Analytics for Firebase)</h2>
+  <p>Deslize uses Google Analytics for Firebase to understand how the puzzles play, for example which levels take too long or are retried most. It records events such as starting, solving, retrying or leaving a level, the moves and time taken, the hints used, the mode and world you're playing, and when a world or mode unlocks. Like most apps that use Firebase, it also sends basic technical information: device model, iOS version, app version, language and an approximate country or region.</p>
+  <p>These statistics are tied to a random app instance ID and to your <strong>player code</strong>, a short code such as <code>K7Q2-9XMD</code> shown in Settings › Privacy. The player code is created on your device with a one-way hash of your Game Center player ID (or of the random install ID if you don't use Game Center). Your Game Center ID itself never leaves your device, and the code can't be turned back into it.</p>
+  <p>Deslize does <strong>not</strong> collect your name, email address, Apple Account, contacts, precise location, the advertising identifier (IDFA) or the identifier for vendor (IDFV). The statistics are not used for advertising, are not combined with data from other apps or websites, and are not sold or shared with data brokers. Your device's IP address reaches Google when the data is sent; Google Analytics doesn't store IP addresses. Statistics are kept for at most 14 months.</p>
+  <p>To stop sending gameplay statistics, turn off <strong>Share anonymous usage</strong> in Settings › Privacy.</p>
 
-  <h2>Internet Access</h2>
-  <p>Deslize itself makes no network requests. All 200 puzzles are included in the app and it works completely offline. The only online feature is Game Center, which is provided by Apple as described above.</p>
+  <h2>Remote Settings (Firebase Remote Config)</h2>
+  <p>When it opens, Deslize checks Firebase Remote Config for settings. This check sends your player code and app instance ID so that specific players, such as testers, can be given free assist options (unlimited hearts, unlimited hints or solution replays). Assists are never sold. This check also happens when Share anonymous usage is off, but it doesn't record any gameplay.</p>
 
-  <h2>Third-Party Services</h2>
-  <p>Deslize does not include any third-party SDKs, analytics frameworks, advertising networks, crash-reporting services, or data brokers. The only platform integration is Apple's Game Center.</p>
+  <h2>Game Center and iCloud</h2>
+  <p>If you're signed in to Game Center, Deslize reports your scores to leaderboards, unlocks achievements and saves a copy of your progress through Game Center, which keeps it in your iCloud Drive so it can be restored after you reinstall the app or move to a new device. This data is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Deslize never receives your Game Center account details or contacts. The game works fully without Game Center; sign out under Settings › Game Center in the iOS Settings app to stop.</p>
 
-  <h2>Purchases</h2>
-  <p>Deslize is free. It has no in-app purchases, subscriptions, or ads.</p>
+  <h2>Notifications</h2>
+  <p>If you allow notifications, Deslize can remind you when your hearts have refilled or a new daily challenge is waiting. These reminders are scheduled on your device and no data is sent to deliver them. You can turn them off in the iOS Settings app at any time.</p>
+
+  <h2>Service Providers</h2>
+  <p>Gameplay statistics and remote settings are processed by Google as part of Firebase. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Game Center and iCloud are provided by Apple. Deslize uses no other third-party services.</p>
+
+  <h2>Purchases and Ads</h2>
+  <p>Deslize is free. It has no in-app purchases, no subscriptions and no ads.</p>
 
   <h2>Children's Privacy</h2>
-  <p>Deslize does not collect any information from anyone, including children under the age of 13. Because the app gathers no data, it is suitable for players of all ages.</p>
+  <p>Deslize doesn't ask anyone, including children, for their name, age, contact details or any other personal information. The gameplay statistics described above work the same way for every player and can be turned off in Settings › Privacy.</p>
 
-  <h2>Data Deletion</h2>
-  <p>To delete everything Deslize has stored, delete the app from your device. This removes your progress and settings. Scores and achievements already reported to Game Center are managed by Apple and can be reviewed from your Game Center profile.</p>
+  <h2>Your Choices and Data Deletion</h2>
+  <p><strong>Stop sharing statistics:</strong> turn off Share anonymous usage in Settings › Privacy.<br>
+  <strong>Delete data on your device:</strong> delete the app. This removes your progress, settings and identifiers.<br>
+  <strong>Delete your saved game:</strong> remove Deslize's data from your iCloud storage in the iOS Settings app.<br>
+  <strong>Delete collected statistics:</strong> email the address below with your player code from Settings › Privacy, and the statistics tied to it will be deleted.</p>
+  <p>Scores and achievements already reported to Game Center are managed by Apple and can be reviewed from your Game Center profile.</p>
 
   <h2>Changes to This Policy</h2>
   <p>If this privacy policy is updated, the revised version will be posted at this URL with a new effective date. Any significant change that affects your data will also be mentioned in the app's release notes.</p>
@@ -133,10 +149,10 @@
   <a href="mailto:developer@hermitden.com">developer@hermitden.com</a></p>
 
   <h2>Português</h2>
-  <p>O Deslize não coleta, armazena nem compartilha nenhum dado pessoal. Não há contas, análises de uso, anúncios ou SDKs de terceiros. Seu progresso (estrelas por nível) e suas configurações ficam salvos apenas no seu aparelho. Se você usa o Game Center, pontuações e conquistas são enviadas à Apple conforme a Política de Privacidade da Apple; para parar, saia do Game Center nos Ajustes do iOS. Para apagar tudo, exclua o app.</p>
+  <p>O Deslize não tem contas, anúncios nem rastreamento, e nunca pede seu nome, e-mail ou contatos. Seu progresso, suas configurações, um ID de instalação aleatório e seu código do jogador ficam salvos no aparelho. Para ajustar as fases, o app envia estatísticas anônimas de jogo ao Google Analytics for Firebase (níveis iniciados, resolvidos e repetidos, movimentos, tempo, dicas, além do modelo do aparelho, versão do iOS, idioma e país aproximado), associadas a um ID aleatório e ao seu código do jogador, criado no aparelho a partir de um hash irreversível. Não coletamos o identificador de publicidade (IDFA) nem a localização precisa, e nada é vendido ou usado para anúncios. Os dados são guardados por no máximo 14 meses. Para parar, desative <strong>Compartilhar uso anônimo</strong> em Ajustes › Privacidade. O app também consulta o Firebase Remote Config com seu código do jogador para liberar assistências gratuitas a testadores. Com o Game Center, pontuações, conquistas e uma cópia do progresso (no seu iCloud Drive) são tratadas pela Apple. As notificações são agendadas no próprio aparelho. Para apagar os dados do aparelho, exclua o app; para apagar as estatísticas coletadas, envie seu código do jogador para o e-mail acima.</p>
 
   <h2>Deutsch</h2>
-  <p>Deslize erhebt, speichert oder teilt keine personenbezogenen Daten. Es gibt keine Konten, keine Analyse, keine Werbung und keine SDKs von Drittanbietern. Dein Spielfortschritt (Sterne pro Level) und deine Einstellungen werden nur auf deinem Gerät gespeichert. Wenn du Game Center nutzt, werden Punktzahlen und Erfolge gemäß der Datenschutzrichtlinie von Apple an Apple übermittelt; melde dich in den iOS-Einstellungen von Game Center ab, um das zu beenden. Um alles zu löschen, lösche die App.</p>
+  <p>Deslize hat keine Konten, keine Werbung und kein Tracking und fragt nie nach deinem Namen, deiner E-Mail-Adresse oder deinen Kontakten. Dein Fortschritt, deine Einstellungen, eine zufällige Installations-ID und dein Spielercode werden auf deinem Gerät gespeichert. Um die Level abzustimmen, sendet die App anonyme Spielstatistiken an Google Analytics for Firebase (gestartete, gelöste und wiederholte Level, Züge, Zeit, Tipps sowie Gerätemodell, iOS-Version, Sprache und ungefähres Land), verknüpft mit einer zufälligen ID und deinem Spielercode, der auf dem Gerät per nicht umkehrbarem Hash erzeugt wird. Wir erheben weder die Werbe-ID (IDFA) noch deinen genauen Standort, und nichts wird verkauft oder für Werbung genutzt. Die Daten werden höchstens 14 Monate aufbewahrt. Um das zu beenden, deaktiviere <strong>Anonyme Nutzung teilen</strong> unter Einstellungen › Datenschutz. Die App fragt außerdem Firebase Remote Config mit deinem Spielercode ab, um Testern kostenlose Hilfen freizuschalten. Mit Game Center werden Punktzahlen, Erfolge und eine Kopie deines Fortschritts (in deinem iCloud Drive) von Apple verwaltet. Mitteilungen werden auf dem Gerät selbst geplant. Um die Daten auf dem Gerät zu löschen, lösche die App; um erhobene Statistiken löschen zu lassen, sende deinen Spielercode an die oben genannte E-Mail-Adresse.</p>
 
   <h2>Developer</h2>
   <p>Joao Anjos<br>
